@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Service
 {
-    interface IOrders
+    class ReturnOrderDetails
     {
-        public  returnOrder();
 
+        public void returnorder()
+        {
+    
+        }
     }
 }
