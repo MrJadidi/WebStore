@@ -11,12 +11,17 @@ namespace Service.Implimentation
     {
         public void AddCustomer()
         {
-            throw new NotImplementedException();
+            var cust = new Data.Customers { Name = "Julia", Phone = "0452222366", Address = null, Orders = { OrderID = 1, 2 } };
         }
 
         public void GetAllCustomer()
         {
-            throw new NotImplementedException();
+            using (var Context = new Data.TestDataEntities())
+            {
+                var cst = Context.Customers
+                    .Where(p => p.CustomerID < 1000).ToList();  
+                          
+            }
         }
     }
 }
