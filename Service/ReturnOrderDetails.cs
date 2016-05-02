@@ -14,6 +14,7 @@ namespace Service
             using (var context = new Data.TestDataEntities())
             {
                 //var customer =
+                var int = 0;
             }
         }
         
