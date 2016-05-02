@@ -9,10 +9,13 @@ namespace Service
 {
     class ReturnOrderDetails
     {
-
-        public void returnorder()
+        public static void Main(string[] args)
         {
-    
+            using (var context = new Data.TestDataEntities())
+            {
+                //var customer =
+            }
         }
+        
     }
 }

@@ -19,7 +19,7 @@ namespace Data
         public Nullable<int> CustomerID { get; set; }
         public Nullable<System.DateTime> RegDate { get; set; }
     
-        public virtual Customer Customer { get; set; }
+        public virtual Customers Customer { get; set; }
         public virtual OrderProduct OrderProduct { get; set; }
     }
 }

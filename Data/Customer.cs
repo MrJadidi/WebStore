@@ -12,10 +12,10 @@ namespace Data
     using System;
     using System.Collections.Generic;
     
-    public partial class Customer
+    public partial class Customers
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Customer()
+        public Customers()
         {
             this.Orders = new HashSet<Order>();
         }
